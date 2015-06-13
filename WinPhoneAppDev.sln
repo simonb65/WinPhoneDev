@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpsAndBackgroundApp", "GpsAndBackgroundApp\GpsAndBackgroundApp.csproj", "{6E013DB2-9C70-4FCA-A92D-7252FED577EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLite", "DriverLite\DriverLite.csproj", "{C2DAA0FF-F610-49E2-BE63-51FDB575E369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLite.TestClient", "DriverLite.TestClient\DriverLite.TestClient.csproj", "{D56FB383-3008-4479-B737-22EA37866834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLite.Web", "DriverLite.Web\DriverLite.Web.csproj", "{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,40 @@ Global
 		{6E013DB2-9C70-4FCA-A92D-7252FED577EC}.Release|x86.ActiveCfg = Release|x86
 		{6E013DB2-9C70-4FCA-A92D-7252FED577EC}.Release|x86.Build.0 = Release|x86
 		{6E013DB2-9C70-4FCA-A92D-7252FED577EC}.Release|x86.Deploy.0 = Release|x86
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|ARM.Build.0 = Debug|ARM
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|x86.ActiveCfg = Debug|x86
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|x86.Build.0 = Debug|x86
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Debug|x86.Deploy.0 = Debug|x86
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|ARM.ActiveCfg = Release|ARM
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|ARM.Build.0 = Release|ARM
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|ARM.Deploy.0 = Release|ARM
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|x86.ActiveCfg = Release|x86
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|x86.Build.0 = Release|x86
+		{C2DAA0FF-F610-49E2-BE63-51FDB575E369}.Release|x86.Deploy.0 = Release|x86
+		{D56FB383-3008-4479-B737-22EA37866834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D56FB383-3008-4479-B737-22EA37866834}.Release|x86.ActiveCfg = Release|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F89F1EDB-3A8C-427A-97CF-C5D110E747BF}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
