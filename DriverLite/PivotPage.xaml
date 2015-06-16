@@ -33,7 +33,7 @@
             
             <!--Pivot item one-->
             <PivotItem
-                Margin="19,14,0,0"
+                Margin="10,14,10,0"
                 Header="Accepted"
                 DataContext="{Binding DefaultViewModel}"
                 CommonNavigationTransitionInfo.IsStaggerElement="True">
@@ -43,30 +43,42 @@
                     IsItemClickEnabled="True"
                     ItemClick="ItemView_ItemClick"
                     ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        </Style>
+                    </ListView.ItemContainerStyle>
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <StackPanel Margin="0,0,0,9.5">
-                                <TextBlock
-                                    Text="{Binding Journey}"
-                                    TextWrapping="Wrap"
-                                    Pivot.SlideInAnimationGroup="1"
-                                    CommonNavigationTransitionInfo.IsStaggerElement="True"
-                                    Style="{ThemeResource ListViewItemTextBlockStyle}"
-                                    Margin="0,0,19,0"/>
-                                <TextBlock
-                                    Text="{Binding PickupDesc}"
-                                    TextWrapping="WrapWholeWords"
-                                    Pivot.SlideInAnimationGroup="2" 
-                                    CommonNavigationTransitionInfo.IsStaggerElement="True" 
-                                    Style="{ThemeResource ListViewItemContentTextBlockStyle}"
-                                    Margin="0,0,19,0"/>
-                                <TextBlock
-                                    Text="{Binding DeliveryDesc}"
-                                    Pivot.SlideInAnimationGroup="2" 
-                                    CommonNavigationTransitionInfo.IsStaggerElement="True" 
-                                    Style="{ThemeResource ListViewItemContentTextBlockStyle}"
-                                    Margin="0,0,19,0"/>
-                            </StackPanel>
+                            <Border 
+                                BorderBrush="LightGreen"
+                                BorderThickness="2"
+                                Margin="0, 0, 0, 5">
+                                
+                                <StackPanel Margin="1,0,0,9.5"  >
+                                    <TextBlock
+                                        Text="{Binding Journey}"
+                                        TextWrapping="Wrap"
+                                        Pivot.SlideInAnimationGroup="1"
+                                        CommonNavigationTransitionInfo.IsStaggerElement="True"
+                                        Style="{ThemeResource ListViewItemTextBlockStyle}"
+                                        Margin="0,0,19,0"/>
+                                    <TextBlock
+                                        Text="{Binding PickupDesc}"
+                                        TextWrapping="WrapWholeWords"
+                                        Pivot.SlideInAnimationGroup="2" 
+                                        CommonNavigationTransitionInfo.IsStaggerElement="True" 
+                                        Style="{ThemeResource ListViewItemContentTextBlockStyle}"
+                                        Margin="0,0,19,0"/>
+                                    <TextBlock
+                                        Text="{Binding DeliveryDesc}"
+                                        Pivot.SlideInAnimationGroup="2" 
+                                        CommonNavigationTransitionInfo.IsStaggerElement="True" 
+                                        Style="{ThemeResource ListViewItemContentTextBlockStyle}"
+                                        Margin="0,0,19,0"/>
+                                </StackPanel>
+                            </Border>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

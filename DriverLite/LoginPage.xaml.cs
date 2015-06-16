@@ -23,6 +23,8 @@ namespace DriverLite
     /// </summary>
     public sealed partial class LoginPage : Page
     {
+        public const bool EnforceLogin = false;
+
         private const string LastEmailKey = "LastEmail";
         private const string LastVehicleKey = "LastVehicles";
 
@@ -59,7 +61,7 @@ namespace DriverLite
                 return;
             }
 
-            if (true) // await LogIn())
+            if (!EnforceLogin || await LogIn())
             {
                 ErrorTextBlock.Text = string.Empty;
                 SaveOrClearDefaults();
